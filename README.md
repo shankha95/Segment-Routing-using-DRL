@@ -10,4 +10,20 @@ This documentation provides an in-depth exploration of the tool's functionality,
 
 ## Getting Started
 
-[...continue with the rest of your README content...]
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Python 3.8.10**: This project requires Python version 3.8.10. You can download and install it from the official [Python website](https://www.python.org/downloads/release/python-3810/).
+- **pip**: Python package installer, usually included with Python.
+
+### Setting Up the Environment
+
+1. **Clone the Repository**
+
+   First, clone the project repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/network-optimization-tool.git
+   cd network-optimization-tool
