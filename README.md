@@ -29,13 +29,13 @@ Before you begin, ensure you have met the following requirements:
    cd Segment-Routing-using-DRL
 
    python3.8 -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-pip install jupyter notebook
-pip install networkx
-pip install torch  # Or `pip install torch==version_number` for a specific version
-pip install numpy
-pip install matplotlib
+   pip install jupyter notebook
+   pip install networkx
+   pip install torch  # Or `pip install torch==version_number` for a specific version
+   pip install numpy
+   pip install matplotlib
 
