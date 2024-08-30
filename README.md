@@ -41,22 +41,22 @@ Before you begin, ensure you have met the following requirements:
 ## System Architecture
 The system is composed of several key modules, each designed to perform specific tasks in the network optimization process. The main components include:
 
-**Data Extraction: This module handles the efficient extraction of relevant data from specified datasets, ensuring flexibility in data handling by employing robust algorithms.
-**Network Topology Creation: Using Python-based network simulation techniques, this module constructs network topologies from the extracted data, defining the structural framework of the network.
-**Flow Demand Routing: This module focuses on routing flows through the network efficiently, integrating middle points within the network to enhance flow routing efficiency.
-**Performance Evaluation: This module assesses the performance of routing algorithms and the impact of middle point selections on network efficiency.
-**Deep Reinforcement Learning (DRL) Integration: The core of the system, this module leverages PyTorch to implement DRL models that predict and optimize flow placements within the network.
+**Data Extraction: This module handles the efficient extraction of relevant data from specified datasets, ensuring flexibility in data handling by employing robust algorithms.**
+**Network Topology Creation: Using Python-based network simulation techniques, this module constructs network topologies from the extracted data, defining the structural framework of the network.**
+**Flow Demand Routing: This module focuses on routing flows through the network efficiently, integrating middle points within the network to enhance flow routing efficiency.**
+**Performance Evaluation: This module assesses the performance of routing algorithms and the impact of middle point selections on network efficiency.**
+**Deep Reinforcement Learning (DRL) Integration: The core of the system, this module leverages PyTorch to implement DRL models that predict and optimize flow placements within the network.**
 
 ## Deep Reinforcement Learning (DRL) Overview
 The DRL module plays a critical role in optimizing network routing by dynamically selecting the most efficient paths. Here's an overview of how DRL is implemented:
 
-** DRL Model: The project employs a Deep Reinforcement Learning model designed using PyTorch. The model is trained to optimize the selection of middle points in the network based on traffic flow data.
-** Training Process: The model is trained on historical network data to predict the optimal number of middle points that should be used in different network configurations. The training process involves preprocessing input data, defining the DRL model architecture, and using optimization algorithms such as Adam to update model parameters.
-** Testing and Evaluation: After training, the model is tested on new network configurations to evaluate its performance. The evaluation process includes testing with and without middle points to compare the effectiveness of the DRL model in optimizing network flow.
+**DRL Model: The project employs a Deep Reinforcement Learning model designed using PyTorch. The model is trained to optimize the selection of middle points in the network based on traffic flow data.**
+**Training Process: The model is trained on historical network data to predict the optimal number of middle points that should be used in different network configurations. The training process involves preprocessing input data, defining the DRL model architecture, and using optimization algorithms such as Adam to update model parameters.**
+**Testing and Evaluation: After training, the model is tested on new network configurations to evaluate its performance. The evaluation process includes testing with and without middle points to compare the effectiveness of the DRL model in optimizing network flow.**
 
 ## Implementation Details
-** Programming Language: Python was used for the implementation, leveraging its extensive libraries for network simulation (NetworkX), data visualization (Matplotlib), and machine learning (PyTorch).
-** Code Structure: The project is organized into modules for network simulation, machine learning simulation, and DRL model training and testing. The code is modular, allowing for easy extension and maintenance.
+**Programming Language: Python was used for the implementation, leveraging its extensive libraries for network simulation (NetworkX), data visualization (Matplotlib), and machine learning (PyTorch).**
+**Code Structure: The project is organized into modules for network simulation, machine learning simulation, and DRL model training and testing. The code is modular, allowing for easy extension and maintenance.**
 
 ## Use Cases and Limitations
 The tool is designed to address specific use cases such as congestion control and optimal resource utilization. While the DRL model shows promising results, there are limitations that need to be addressed, such as improving the accuracy of predictions in dynamic network environments.
