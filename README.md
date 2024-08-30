@@ -25,5 +25,17 @@ Before you begin, ensure you have met the following requirements:
    First, clone the project repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/network-optimization-tool.git
-   cd network-optimization-tool
+   git clone https://github.com/yourusername/Segment-Routing-using-DRL.git
+   cd Segment-Routing-using-DRL
+
+   python3.8 -m venv venv
+source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+
+pip install -r requirements.txt
+
+pip install jupyter notebook
+pip install networkx
+pip install torch  # Or `pip install torch==version_number` for a specific version
+pip install numpy
+pip install matplotlib
+
